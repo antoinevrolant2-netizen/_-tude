@@ -1,0 +1,59 @@
+PJTs
+
+- devis
+- saison
+- courses(darty)
+- MS
+- valise(banque)
+- gnx(wine)
+
+---------------------------------------
+
+METH
+
+- use cases
+- séquences
+- activités
+- composants
+- déploiement
+- classes
+- packages
+- MCD
+
+---------------------------------------
+
+ENV
+
+- ant
+- maven
+- git
+- javadoc
+
+- repository test
+
+----------------------------------------
+
+FRONT
+
+- CRUD
+- google shopping
+
+BACK
+
+- compta
+- CRM
+
+----------------------------------------
+
+VRAC
+
+- scalable(composants, déploiement, installation)
+- dico(+appels)
+- code_promo, etc
+- LIV(détails)
+
+
+
+
+
+
