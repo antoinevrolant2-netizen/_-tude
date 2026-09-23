@@ -11,14 +11,14 @@ PJTs
 
 METH
 
-- use cases
-- séquences
-- activités
-- composants
-- déploiement
++ use cases
++ séquences
++ activités
++ composants
++ déploiement
 - classes
-- packages
-- MCD
++ packages
++ MCD
 
 ---------------------------------------
 
@@ -28,6 +28,7 @@ ENV
 - maven
 - git
 - javadoc
+- mantis
 
 - repository test
 
@@ -47,7 +48,8 @@ BACK
 
 VRAC
 
-- scalable(composants, déploiement, installation)
+- scalable
+- installation
 - dico(+appels)
 - code_promo, etc
 - LIV(détails)
