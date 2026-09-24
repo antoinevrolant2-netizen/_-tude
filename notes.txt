@@ -1,24 +1,28 @@
 PJTs
 
+- MS
+- banque : valise
+
 - devis
 - saison
-- courses(darty)
-- MS
-- valise(banque)
-- gnx(wine)
+- gnx : darty(courses, wine(pilote pour l'international))
 
 ---------------------------------------
 
 METH
 
-+ use cases
-+ séquences
-+ activités
-+ composants
-+ déploiement
+- use cases
+- séquences
+- activités
+- composants
+- déploiement
 - classes
-+ packages
-+ MCD
+- packages
+- MCD
+
+Documentation
+
+Gant
 
 ---------------------------------------
 
@@ -28,6 +32,7 @@ ENV
 - maven
 - git
 - javadoc
+- jad
 - mantis
 
 - repository test
@@ -37,9 +42,11 @@ ENV
 FRONT
 
 - CRUD
-- google shopping
+- GoogleShopping
 
 BACK
+
+- impression(format échange XML)
 
 - compta
 - CRM
@@ -48,11 +55,23 @@ BACK
 
 VRAC
 
-- scalable
-- installation
+paramètres société (.sh, ant, etc)
+- installation(param)
 - dico(+appels)
 - code_promo, etc
-- LIV(détails)
+- FAV
+- LIV
+	- détails
+	- retour dans boîte aux lettres (relay)
+	- BAV et retour
+	- prix/gratuit
+	- adr
+	- suivi
+	- expéditeur(entrepot)
+	- BL(fournisseur)
+	- col
+
+
 
 
 
