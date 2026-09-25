@@ -67,10 +67,9 @@ VRAC
 - code_promo, campagnes, etc
 - FAV
 - LIV
-	retour
-	   colis à la poste
-	   adresse de l'entrepot
-	   transport payé
+	colis à la poste
+	adresse de l'entrepot
+	transport payé
 
 
 	- expéditeur(entrepot)
