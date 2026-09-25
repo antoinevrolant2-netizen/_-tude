@@ -55,10 +55,12 @@ BACK
 
 VRAC
 
-paramètres société (.sh, ant, etc)
+- prise de commande
+
+- paramètres société (.sh, ant, etc)
 - installation(param)
 - dico(+appels)
-- code_promo, etc
+- code_promo, carte cadeau, etc
 - FAV
 - LIV
 	- détails
