@@ -4,7 +4,6 @@ PJTs
 - banque : valise
 
 - devis
-- saison
 - gnx : darty(courses, wine(pilote pour l'international))
 
 ---------------------------------------
@@ -37,6 +36,9 @@ ENV
 
 - repository test
 
+- déploiement(.sh, ant, etc)
+- mutualisé ?
+
 ----------------------------------------
 
 FRONT
@@ -55,25 +57,25 @@ BACK
 
 VRAC
 
-- voice
+- voice à domicile(pc/mobile) et en magasin(mobile)
 - prise de commande
 - répare
+ 
+- paramètres société
 
-- paramètres société (.sh, ant, etc)
-- installation(param)
 - dico(+appels)
-- code_promo, etc
+- code_promo, campagnes, etc
 - FAV
 - LIV
-	- détails
-	- retour dans boîte aux lettres (relay)
-	- BAV et retour
-	- prix/gratuit
-	- adr
-	- suivi
+	retour
+	   colis à la poste
+	   adresse de l'entrepot
+	   transport payé
+
+
 	- expéditeur(entrepot)
 	- BL(fournisseur)
-	- col
+	- 
 
 
 
