@@ -20,7 +20,7 @@ METH
 - packages
 - MCD
 
-Documentation
+Documentation (ex: téléphone gmail mais pas dans l'inventaire)
 
 Gant
 
@@ -55,12 +55,13 @@ BACK
 
 VRAC
 
-- prise de commande
+- prise de commande et Voice
+- répare
 
 - paramètres société (.sh, ant, etc)
 - installation(param)
 - dico(+appels)
-- code_promo, carte cadeau, etc
+- code_promo, etc
 - FAV
 - LIV
 	- détails
