@@ -55,7 +55,7 @@ BACK
 
 VRAC
 
-- prise de commande et Voice
+- prise de commande
 - répare
 
 - paramètres société (.sh, ant, etc)
@@ -75,8 +75,11 @@ VRAC
 	- col
 
 
-
-
+- site marchand avec voice 
+	-> à domicile(pc/mobile/enceinte)
+	-> en magasin avec smartphone
+- mutualisé ticket pour client final et marketing
+- douchette sur le cadis
 
 
 
