@@ -36,7 +36,7 @@ ENV
 
 - repository test
 
-- déploiement(.sh, ant, etc)
+- déploiement(jvm, .sh, ant, etc)
 - mutualisé ?
 
 ----------------------------------------
@@ -57,7 +57,7 @@ BACK
 
 VRAC
 
-- voice à domicile(pc/mobile) et en magasin(mobile)
+- voice à domicile(macOs, iPhone) et en magasin(iPhone)
 - prise de commande
 - répare
  
@@ -76,9 +76,8 @@ VRAC
 	- BL(fournisseur)
 	- 
 
-
-
-
-
+- peut-ëtre déployer la solution pour plusieurs clients
+- client d'une solution générale pour client final qui peut etre internationnal(web particulier/entreprise(entrepots français/international), ou magasin(international ?))
+- env et pays
 
 
