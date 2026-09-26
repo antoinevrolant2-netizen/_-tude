@@ -76,8 +76,6 @@ VRAC
 	- BL(fournisseur)
 	- 
 
-- peut-ëtre déployer la solution pour plusieurs clients
-- client d'une solution générale pour client final qui peut etre internationnal(web particulier/entreprise(entrepots français/international), ou magasin(international ?))
-- env et pays
+
 
 
