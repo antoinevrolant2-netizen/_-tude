@@ -3,7 +3,6 @@ PJTs
 - MS
 - banque : valise
 
-- devis
 - e-commerce
 
 ---------------------------------------
@@ -44,7 +43,6 @@ ENV
 FRONT
 
 - CRUD
-- GoogleShopping
 
 BACK
 
