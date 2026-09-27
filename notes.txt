@@ -55,11 +55,10 @@ BACK
 
 VRAC
 
+
 - prise de commande
-- voice à domicile(macOs, iPhone) et en magasin(iPhone)
  
-- paramètres société
-- dico(+appels, SAV)
+
 
 
 
