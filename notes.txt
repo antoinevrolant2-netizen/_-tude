@@ -4,7 +4,7 @@ PJTs
 - banque : valise
 
 - devis
-- gnx : darty(courses, wine(pilote pour l'international))
+- e-commerce
 
 ---------------------------------------
 
@@ -57,24 +57,11 @@ BACK
 
 VRAC
 
-- voice à domicile(macOs, iPhone) et en magasin(iPhone)
 - prise de commande
-- répare
+- voice à domicile(macOs, iPhone) et en magasin(iPhone)
  
 - paramètres société
-
-- dico(+appels)
-- code_promo, campagnes, etc
-- FAV
-- LIV
-	colis à la poste
-	adresse de l'entrepot
-	transport payé
-
-
-	- expéditeur(entrepot)
-	- BL(fournisseur)
-	- 
+- dico(+appels, SAV)
 
 
 
