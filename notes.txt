@@ -49,7 +49,7 @@ BACK
 - impression(format échange XML)
 
 - compta
-- CRM
+- CRM et BO
 
 ----------------------------------------
 
@@ -57,6 +57,9 @@ VRAC
 
 - scop achat
 - scop cdv
+- scop liv
+- scop autre ?
+- scop à terme (ex:darty, alex)
 
 - rdv
 - revue
