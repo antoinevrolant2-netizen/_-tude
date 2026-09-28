@@ -59,7 +59,6 @@ VRAC
 - scop cdv
 - scop liv
 - scop autre ?
-- scop à terme (ex:darty, alex)
 
 - rdv
 - revue
