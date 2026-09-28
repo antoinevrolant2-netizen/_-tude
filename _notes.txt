@@ -1,0 +1,72 @@
+PJTs
+
+- MS
+- banque : valise
+
+- e-commerce
+
+---------------------------------------
+
+METH
+
+- use cases
+- séquences
+- activités
+- composants
+- déploiement
+- classes
+- packages
+- MCD
+
+Documentation (ex: téléphone gmail mais pas dans l'inventaire)
+
+Gant
+
+---------------------------------------
+
+ENV
+
+- ant
+- maven
+- git
+- javadoc
+- jad
+- mantis
+
+- repository test
+
+- déploiement(jvm, .sh, ant, etc)
+- mutualisé ?
+
+----------------------------------------
+
+FRONT
+
+- CRUD
+
+BACK
+
+- impression(format échange XML)
+
+- compta
+- CRM et BO
+
+----------------------------------------
+
+VRAC
+
+- scop achat
+- scop cdv
+- scop liv
+- scop autre ?
+- scop à terme (ex:darty, alex)
+
+- rdv
+- revue
+- prise de commande(sites)
+ 
+
+
+
+
+
