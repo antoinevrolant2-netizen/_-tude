@@ -59,6 +59,12 @@ VRAC
 - scop cdv
 - scop liv
 - scop autre ?
+- offre à terme
+	D solution
+	_u distrib tendu(cat), notamment courses
+	alex(rentrée), et stocks mag vers nous
+	(template F)
+	(package B)
 
 - rdv
 - revue
