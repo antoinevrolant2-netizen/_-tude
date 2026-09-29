@@ -18,7 +18,7 @@ METH
 - packages
 - MCD
 
-Documentation (ex: téléphone gmail mais pas dans l'inventaire)
+Documentation
 
 Gant
 
@@ -48,15 +48,10 @@ BACK
 
 - impression(format échange XML)
 
-- compta
-- CRM et BO
-
 ----------------------------------------
 
 VRAC
 
-- scop achat
-- scop cdv
 - scop liv
 - scop autre ?
 - offre à terme
@@ -64,9 +59,7 @@ VRAC
 	_u distrib tendu(cat), notamment courses
 	alex(rentrée), et stocks mag vers nous
 	(template F)
-	(package B)
 
-- rdv
 - revue
 - prise de commande(sites)
  
