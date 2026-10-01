@@ -27,27 +27,61 @@
                     <br />
                     <table>
                         <tr>
-                            <td>login&nbsp;</td><td><input type="email" name="login"></input></td>
-                        </tr>
-                        <tr>
-                            <td>mot de passe &nbsp;</td><td><input type="password" name="pwd"></input></td>
-                        </tr>
-                        <tr>
-                            <td>profile&nbsp;</td>
+                            <td><input placeholder="login" name="login"></input></td>
+                            <td><input placeholder="mot de passe" type="password" name="pwd"></input></td>
                             <td>
                                 <select name="profile" id="profile">
                                     <option value="profile_1">gestion client</option>
-                                    <option value="profile_n">gestion des ventes</option>
-                                    <option value="profile_n">gestion des lirvaisons</option>
-                                    <option value="profile_n">gestion des stocks/achats</option>
+                                    <option value="profile_2">gestion des ventes</option>
+                                    <option value="profile_3">gestion des lirvaisons</option>
+                                    <option value="profile_4">gestion des stocks/achats</option>
                                 </select>
                             </td>
+                            <td><input type="button" name="ajout_utilisateur" value="ajouter"></td>
                         </tr>
                         <tr>
-                            <td colspan="2" align="center"><input type="button" name="validation_user" value="cr&eacute;er utilisateur"></td>
+                            <td><input type="text" name="login-1"></input></td>
+                            <td><input type="password" name="pwd-1"></input></td>
+                            <td>
+                                <select name="profile-1" id="profile-1">
+                                    <option value="profile_1-1">gestion client</option>
+                                    <option value="profile_2-1">gestion des ventes</option>
+                                    <option value="profile_3-1">gestion des lirvaisons</option>
+                                    <option value="profile_4-1">gestion des stocks/achats</option>
+                                </select>
+                            </td>
+                            <td><input type="button" name="modifier_utilisateur-1" value="modifier"></td>
+                            <td><input type="button" name="supprimer_utilisateur-1" value="supprimer"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="login-2"></input></td>
+                            <td><input type="password" name="pwd-2"></input></td>
+                            <td>
+                                <select name="profile-2" id="profile-2">
+                                    <option value="profile_1-2">gestion client</option>
+                                    <option value="profile_2-2">gestion des ventes</option>
+                                    <option value="profile_3-2">gestion des lirvaisons</option>
+                                    <option value="profile_4-2">gestion des stocks/achats</option>
+                                </select>
+                            </td>
+                            <td><input type="button" name="modifier_utilisateur-2" value="modifier"></td>
+                            <td><input type="button" name="supprimer_utilisateur-2" value="supprimer"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="login-3"></input></td>
+                            <td><input type="password" name="pwd-3"></input></td>
+                            <td>
+                                <select name="profile-3" id="profile-3">
+                                    <option value="profile_1-3">gestion client</option>
+                                    <option value="profile_2-3">gestion des ventes</option>
+                                    <option value="profile_3-3">gestion des lirvaisons</option>
+                                    <option value="profile_4-3">gestion des stocks/achats</option>
+                                </select>
+                            </td>
+                            <td><input type="button" name="modifier_utilisateur-3" value="modifier"></td>
+                            <td><input type="button" name="supprimer_utilisateur-3" value="supprimer"></td>
                         </tr>
                     </table>
-
                     <br />
                     <br />
                     <h2>Produits / Catalogues</h2>
@@ -91,13 +125,28 @@
                     <br />
                     <table>
                         <tr>
-                            <td>nom de l'entrepot</td><td><input type="text" name="entrepot"></input></td>
+                            <td><input placeholder="nom de l'entrepot" name="entrepot-name"></input></td>
+                            <td><input placeholder="d&eacute;tail des coordonn&eacute;es" name="coordonn&eacute;es-d&eacute;tail"></input></td>
+                            <td><input type="button" name="ajout_entrepot" value="ajouter"></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>coordonn&eacute;ess</td><td>raison sociale, etc.</td>
+                            <td><input type="text" name="entrepot-1"></input></td>
+                            <td><input type="text" name="coordonn&eacute;es-1"></input></td>
+                            <td><input type="button" name="modifier_entrepot-1" value="modifier"></td>
+                            <td><input type="button" name="supprimer_entrepot-1" value="supprimer"></td>
                         </tr>
                         <tr>
-                            <td colspan="2" align="center"><input type="button" name="validation_entrepot" value="cr&eacute;er entrepot"></td>
+                            <td><input type="text" name="entrepot-2"></input></td>
+                            <td><input type="text" name="coordonn&eacute;es-2"></input></td>
+                            <td><input type="button" name="modifier_entrepot-2" value="modifier"></td>
+                            <td><input type="button" name="supprimer_entrepot-2" value="supprimer"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="entrepot-3"></input></td>
+                            <td><input type="text" name="coordonn&eacute;es-3"></input></td>
+                            <td><input type="button" name="modifier_entrepot" value="modifier"></td>
+                            <td><input type="button" name="supprimer_entrepot-3" value="supprimer"></td>
                         </tr>
                     </table>
                     <br />
@@ -109,7 +158,7 @@
         <table border="1" width="100%">
                 <tr>
                     <td colspan="2" width="33%">
-                        <h3>Fonctionnement magasin / catalogue : gestion des priorit&eacute;</h3>
+                        <h3>Fonctionnement des entrepots : gestion des priorit&eacute;</h3>
                     </td>
                     <td width="33%">
                         <h3>R&eacute;servation des stocks en ligne</h3>
@@ -123,13 +172,9 @@
                         <table>
                             <tr>
                                 <td>
-                                    <select name="magasin" id="magasin">
-                                        <option value="magasin_1">magasin&nbsp;1</option>
-                                        <option value="magasin_n">magasin&nbsp;n</option>
-                                    </select>
-                                    <select name="catalogue" id="catalogue">
-                                        <option value="catalogue_1">catalogue&nbsp;1</option>
-                                        <option value="catalogue_n">catalogue&nbsp;n</option>
+                                    <select name="entrepot" id="entrepot">
+                                        <option value="entrepot_1">entrepot&nbsp;1</option>
+                                        <option value="entrepot_n">entrepot&nbsp;n</option>
                                     </select>
                                 </td>
                             </tr>
