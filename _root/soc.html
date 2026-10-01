@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body width="100%">
+
+        <table width="100%" border="1">
+            <tr>
+                <td width="100%">
+                    <h1>Param&eacute;trage de la soci&eacute;t&eacute;</h1>
+                    <br />
+                    <br />
+                    <h2>Coordonn&eacute;es</h2>
+                    <br />
+                    raison sociale, etc.
+                    <br />
+                    pays/devise : r&eacute;cupr&eacute;e par l'&eacute;cran
+                    <br />
+                    <br />
+                    <h2>Utilisateurs</h2>
+                    <br />
+                    <table>
+                        <tr>
+                            <td>login</td><td><input type="email" name="login"></input></td>
+                        </tr>
+                        <tr>
+                            <td>mot de passe</td><td><input type="password" name="pwd"></input></td>
+                        </tr>
+                        <!--
+                        <tr>
+                            <td colspan="2">
+                                <br />
+                            </td>
+                        </tr>
+                        -->
+                        <tr>
+                            <td colspan="2" align="center"><input type="button" name="validation_user" value="cr&eacute;er utilisateur"></td>
+                        </tr>
+                    </table>
+
+                    <br />
+                    <br />
+                    <h2>Produits / Catalogues</h2>
+                    <br />
+                    <br />
+                    <table>
+                        <tr>
+                            <td>initialisation</td>
+                        </tr>
+                    </table>
+                    <br />
+                    <br />
+                    <h2>Gestion du tunnel de commande</h2>    
+                    <br />
+                    <br />
+                    <h3 style="text-align: left;">Identification</h3>
+                    <br />
+                    <br />
+                    depuis l'ajout du produit ou &agrave; la cr&eacute;ation de la commande
+                    <br />
+                    <br />
+                    <div>
+                        <input type="radio" id="reservation_produit" name="reservation_stock" value="ajout du produit">
+                            <label for="reservation_produit">&agrave; l' ajout du produit</label>
+                            <br />
+                            <br />
+                        <input type="radio" id="reservation_commande" name="reservation_stock" value="cr&amp;ation de la commande">
+                            <label for="reservation">&agrave; la cr&eacute;ation de la commande</label>
+                    </div>
+                    <br />
+                    <br />
+                    <h3 style="text-align: left;">Livraisons / Factures</h3>
+                    <br />
+                    <div>
+                        scinder la facture de la livraison&nbsp;<input type="checkbox" name="liv_fav">
+                    </div>
+                    <br />
+                    <br />
+                    <h2>Stocks</h2>
+                    <br />
+                    <br />
+                    <table>
+                        <tr>
+                            <td>nom de l'entrepot</td><td><input type="text" name="entrepot"></input></td>
+                        </tr>
+                        <tr>
+                            <td>coordonn&eacute;ess</td><td>raison sociale, etc.</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="button" name="validation_entrepot" value="cr&eacute;er entrepot"></td>
+                        </tr>
+                    </table>
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+        
+        <table border="1" width="100%">
+                <tr>
+                    <td colspan="2" width="33%">
+                        <h3>Fonctionnement magasin / catalogue : gestion des priorit&eacute;</h3>
+                    </td>
+                    <td width="33%">
+                        <h3>R&eacute;servation des stocks en ligne</h3>
+                    </td>
+                    <td width="33%">
+                        <h3>Seuil de r&eacute;approvisionnement</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <select name="magasin" id="magasin">
+                                        <option value="magasin_1">magasin&nbsp;1</option>
+                                        <option value="magasin_n">magasin&nbsp;n</option>
+                                    </select>
+                                    <select name="catalogue" id="catalogue">
+                                        <option value="catalogue_1">catalogue&nbsp;1</option>
+                                        <option value="catalogue_n">catalogue&nbsp;n</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><br></td>
+                            </tr>
+                            <tr>
+                                <td><br></td>
+                            </tr>
+                            <tr>
+                                <td><br></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td align="right">&eacute;coulement des stocks</td>
+                                <td><input type="checkbox" name="ecoulement-1"></td>
+                                <td><input type="checkbox" name="ecoulement-2"></td>
+                                <td><input type="checkbox" name="ecoulement-3"></td>
+                                <td><input type="checkbox" name="ecoulement-4"></td>
+                            </tr>
+                            <tr>
+                                <td align="right">r&eacute;approvisionnement</td>
+                                <td><input type="checkbox" name="reapprovisionnement-1"></td>
+                                <td><input type="checkbox" name="reapprovisionnement-2"></td>
+                                <td><input type="checkbox" name="reapprovisionnement-3"></td>
+                                <td><input type="checkbox" name="reapprovisionnement-4"></td>
+                            </tr>
+                            <tr>
+                                <td align="right">flux&nbsp;tendu</td>
+                                <td><input type="checkbox" name="flux_tendu-1"></td>
+                                <td><input type="checkbox" name="flux_tendu-2"></td>
+                                <td><input type="checkbox" name="flux_tendu-3"></td>
+                                <td><input type="checkbox" name="flux_tendu-4"></td>
+                            </tr>
+                            <tr>
+                                <td align="right">transfert</td>
+                                <td><input type="checkbox" name="transfert-1"></td>
+                                <td><input type="checkbox" name="transfert-2"></td>
+                                <td><input type="checkbox" name="transfert-3"></td>
+                                <td><input type="checkbox" name="transfert-4"></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>depuis l'ajout du produit ou &agrave; la cr&eacute;ation de la commande
+                        <br />
+                        <br />
+                        <div>
+                            <input type="radio" id="reservation_produit" name="reservation_stock" value="ajout du produit">
+                                <label for="reservation_produit">&agrave; l' ajout du produit</label>
+                                <br>
+                                <br>
+                            <input type="radio" id="reservation_commande" name="reservation_stock" value="cr&amp;ation de la commande">
+                                <label for="reservation">&agrave; la cr&eacute;ation de la commande</label>
+                        </div>
+                    </td>
+                    <td style="text-align: center;">
+                        int&eacute;gration des seuils pour chaque "entrepot&nbsp;/&nbsp;produit"
+                    </td>
+                </tr>
+            </table>
+        <br>
+        <br>
+    </body>
+</html>
