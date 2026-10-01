@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="test.css">
+        <link rel="stylesheet" href="soc.css">
     </head>
     <body width="100%">
 
@@ -18,22 +18,31 @@
                     pays/devise : r&eacute;cupr&eacute;e par l'&eacute;cran
                     <br />
                     <br />
+                    <h2>Comptabilit&eacute;</h2>
+                    <br />
+                    <a href="">acc&eacute;der &agrave; la comptabilit&eacute;</a> 
+                    <br />
+                    <br />
                     <h2>Utilisateurs</h2>
                     <br />
                     <table>
                         <tr>
-                            <td>login</td><td><input type="email" name="login"></input></td>
+                            <td>login&nbsp;</td><td><input type="email" name="login"></input></td>
                         </tr>
                         <tr>
-                            <td>mot de passe</td><td><input type="password" name="pwd"></input></td>
+                            <td>mot de passe &nbsp;</td><td><input type="password" name="pwd"></input></td>
                         </tr>
-                        <!--
                         <tr>
-                            <td colspan="2">
-                                <br />
+                            <td>profile&nbsp;</td>
+                            <td>
+                                <select name="profile" id="profile">
+                                    <option value="profile_1">gestion client</option>
+                                    <option value="profile_n">gestion des ventes</option>
+                                    <option value="profile_n">gestion des lirvaisons</option>
+                                    <option value="profile_n">gestion des stocks/achats</option>
+                                </select>
                             </td>
                         </tr>
-                        -->
                         <tr>
                             <td colspan="2" align="center"><input type="button" name="validation_user" value="cr&eacute;er utilisateur"></td>
                         </tr>
@@ -106,7 +115,7 @@
                         <h3>R&eacute;servation des stocks en ligne</h3>
                     </td>
                     <td width="33%">
-                        <h3>Seuil de r&eacute;approvisionnement</h3>
+                        <h3>Seuils de r&eacute;approvisionnement</h3>
                     </td>
                 </tr>
                 <tr>
@@ -180,7 +189,7 @@
                         </div>
                     </td>
                     <td style="text-align: center;">
-                        int&eacute;gration des seuils pour chaque "entrepot&nbsp;/&nbsp;produit"
+                        int&eacute;gration du seuil de r&eacute;approvisionnement pour chaque produit d'un entrepot
                     </td>
                 </tr>
             </table>
