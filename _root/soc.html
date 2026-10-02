@@ -279,11 +279,12 @@
                     <td>
                         <table>
                             <tr>
-                                <td style="text-align: center;" colspan="4">
+                                <td style="text-align: left;" colspan="4">
                                     int&eacute;gration du seuil de r&eacute;approvisionnement pour chaque produit d'un entrepot
                                 </td>
                             </tr>
                             <tr>
+                                
                                 <td>
                                     <select name="entrepot_seuil" id="entrepot_seuil">
                                         <option value="entrepot_1">entrepot&nbsp;1</option>
@@ -300,11 +301,106 @@
                                     <input type="button" name="validation_seuil" value="modifier"></input>
                                 </td>
                             </tr>
+
+                            <tr>
+                                
+                                <td> 
+                                    <select name="entrepot_seuil" id="entrepot_seuil">
+                                        <option value="entrepot_1">entrepot&nbsp;1</option>
+                                        <option value="entrepot_n">entrepot&nbsp;n</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="button" value="aller aux produits" onclick="window.open('entrepot_produits_seuil.html', '_blank');"/>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+
                         </table>
                     </td>
+                    
                 </tr>
             </table>
-        <br>
-        <br>
+            <br />
+            <br />
+            <h2>Ev&eacute;nements</h2>
+            <br />Bas&eacute; sur de l'Intelligence Artificielle
+            <br />
+            <br />
+                    <table>
+                        <tr>
+                            <td>
+                                <select name="entrepot_evt" id="entrepot_evt">
+                                    <option value="entrepot_1">entrepot&nbsp;1</option>
+                                    <option value="entrepot_n">entrepot&nbsp;n</option>
+                                </select>
+                            </td>
+                            <td><input placeholder=" d&eacute;tail de l'&eacute;v&eacute;nement" name="detail_evt"></input></td>
+                            <td><input type="button" name="ajout_entrepot_evt" value="ajouter"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <select name="entrepot_evt-1" id="entrepot_evt-1">
+                                    <option value="entrepot_1-1">entrepot&nbsp;1</option>
+                                    <option value="entrepot_n-1">entrepot&nbsp;n</option>
+                                </select>
+                            </td>
+                            <td><input placeholder=" d&eacute;tail de l'&eacute;v&eacute;nement" name="detail_evt-1"></input></td>
+                            <td>
+                                <select name="entrepot_evt_actif-1" id="entrepot_evt_actif-1">
+                                    <option value="entrepot_1_actif-1">activ&eacute;</option>
+                                    <option value="entrepot_n_actif-1">d&eacute;sactiv&eacute;</option>
+                                </select>
+                            </td>
+                            <td><input type="button" name="modifier_entrepot_evt-1" value="modifier"></td>
+                            <td><input type="button" name="supprimer_entrepot_evt-1" value="supprimer"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="entrepot_evt-1" id="entrepot_evt-1">
+                                    <option value="entrepot_1-1">entrepot&nbsp;1</option>
+                                    <option value="entrepot_n-1">entrepot&nbsp;n</option>
+                                </select>
+                            </td>
+                            <td><input placeholder=" d&eacute;tail de l'&eacute;v&eacute;nement" name="detail_evt-1"></input></td>
+                            <td>
+                                <select name="entrepot_evt_actif-1" id="entrepot_evt_actif-1">
+                                    <option value="entrepot_1_actif-1">activ&eacute;</option>
+                                    <option value="entrepot_n_actif-1">d&eacute;sactiv&eacute;</option>
+                                </select>
+                            </td>
+                            <td><input type="button" name="modifier_entrepot_evt-1" value="modifier"></td>
+                            <td><input type="button" name="supprimer_entrepot_evt-1" value="supprimer"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="entrepot_evt-1" id="entrepot_evt-1">
+                                    <option value="entrepot_1-1">entrepot&nbsp;1</option>
+                                    <option value="entrepot_n-1">entrepot&nbsp;n</option>
+                                </select>
+                            </td>
+                            <td><input placeholder=" d&eacute;tail de l'&eacute;v&eacute;nement" name="detail_evt-1"></input></td>
+                            <td>
+                                <select name="entrepot_evt_actif-1" id="entrepot_evt_actif-1">
+                                    <option value="entrepot_1_actif-1">activ&eacute;</option>
+                                    <option value="entrepot_n_actif-1">d&eacute;sactiv&eacute;</option>
+                                </select>
+                            </td>
+                            <td><input type="button" name="modifier_entrepot_evt-1" value="modifier"></td>
+                            <td><input type="button" name="supprimer_entrepot_evt-1" value="supprimer"></td>
+                        </tr>
+                        
+                            
+
+                    </table>
+                    <br />
+                    <br />
     </body>
 </html>
