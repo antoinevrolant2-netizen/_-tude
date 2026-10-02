@@ -27,61 +27,98 @@
                     <br />
                     <h2>Utilisateurs</h2>
                     &nbsp;&nbsp;&nbsp;
-                    <table>
+                    <table style="width: 100%;text-align: center;border: solid;">
                         <tr>
-                            <td><input placeholder="identifiant" type="email" name="login"></input></td>
-                            <td><input placeholder="mot de passe" type="password" name="pwd"></input></td>
-                            <td>
-                                <select name="profile" id="profile">
-                                    <option value="profile_1">gestion client</option>
-                                    <option value="profile_2">gestion des ventes</option>
-                                    <option value="profile_3">gestion des lirvaisons</option>
-                                    <option value="profile_4">gestion des stocks/achats</option>
-                                </select>
-                            </td>
-                            <td><input type="button" name="ajout_utilisateur" value="ajouter"></td>
+                            
+                                        <td style="padding: 5px;width: 12%;text-align: center;"></td>
+                                        <td style="padding: 5px;width: 12%;text-align: center;"></td>
+                                        <td style="padding: 5px;width: 12%;text-align: center;">gestion client</td>
+                                        <td style="padding: 5px;width: 12%;text-align: center;">gestion des ventes</td>
+                                        <td style="padding: 5px;width: 12%;text-align: center;">gestion des livraisons</td>        
+                                        <td style="padding: 5px;width: 12%;text-align: center;">gestion des stocks/achats</td>                     
                         </tr>
                         <tr>
-                            <td><input type="text" name="login-1"></input></td>
-                            <td><input type="text" name="pwd-1"></input></td>
-                            <td>
-                                <select name="profile-1" id="profile-1">
-                                    <option value="profile_1-1">gestion client</option>
-                                    <option value="profile_2-1">gestion des ventes</option>
-                                    <option value="profile_3-1">gestion des lirvaisons</option>
-                                    <option value="profile_4-1">gestion des stocks/achats</option>
-                                </select>
-                            </td>
-                            <td><input type="button" name="modifier_utilisateur-1" value="modifier"></td>
-                            <td><input type="button" name="supprimer_utilisateur-1" value="supprimer"></td>
+                                        <td><input placeholder="identifiant" type="email" name="login"></input></td>
+                                        <td><input placeholder="mot de passe" type="password" name="pwd"></input></td>
+                                        
+                                        <td style="text-align: center;">
+                                            <input type="checkbox" name="check_profile_1" id="check_profile_1">
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <input type="checkbox" name="check_profile_2" id="check_profile_2">
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <input type="checkbox" name="check_profile_3" id="check_profile_3">
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <input type="checkbox" name="check_profile_4" id="check_profile_4">
+                                        </td>        
+                                        <td><input type="button" name="ajout_utilisateur" value="ajouter"></td>
+                                    
                         </tr>
+                        <!--
                         <tr>
-                            <td><input type="text" name="login-2"></input></td>
-                            <td><input type="text" name="pwd-2"></input></td>
-                            <td>
-                                <select name="profile-2" id="profile-2">
-                                    <option value="profile_1-2">gestion client</option>
-                                    <option value="profile_2-2">gestion des ventes</option>
-                                    <option value="profile_3-2">gestion des lirvaisons</option>
-                                    <option value="profile_4-2">gestion des stocks/achats</option>
-                                </select>
-                            </td>
-                            <td><input type="button" name="modifier_utilisateur-2" value="modifier"></td>
-                            <td><input type="button" name="supprimer_utilisateur-2" value="supprimer"></td>
+                            <td><br /></td>
                         </tr>
+                        -->
                         <tr>
-                            <td><input type="text" name="login-3"></input></td>
-                            <td><input type="text" name="pwd-3"></input></td>
-                            <td>
-                                <select name="profile-3" id="profile-3">
-                                    <option value="profile_1-3">gestion client</option>
-                                    <option value="profile_2-3">gestion des ventes</option>
-                                    <option value="profile_3-3">gestion des lirvaisons</option>
-                                    <option value="profile_4-3">gestion des stocks/achats</option>
-                                </select>
+                            <td><input type="email" name="login"></input></td>
+                            <td><input type="password" name="pwd"></input></td>
+                            
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_1" id="check_profile_1">
                             </td>
-                            <td><input type="button" name="modifier_utilisateur-3" value="modifier"></td>
-                            <td><input type="button" name="supprimer_utilisateur-3" value="supprimer"></td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_2" id="check_profile_2">
+                            </td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_3" id="check_profile_3">
+                            </td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_4" id="check_profile_4">
+                            </td>        
+                            <td><input type="button" name="ajout_utilisateur" value="modifier"></td>
+                            <td><input type="button" name="ajout_utilisateur" value="supprimer"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="email" name="login"></input></td>
+                            <td><input type="password" name="pwd"></input></td>
+                            
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_1" id="check_profile_1">
+                            </td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_2" id="check_profile_2">
+                            </td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_3" id="check_profile_3">
+                            </td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_4" id="check_profile_4">
+                            </td>        
+                            <td><input type="button" name="ajout_utilisateur" value="modifier"></td>
+                            <td><input type="button" name="ajout_utilisateur" value="supprimer"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="email" name="login"></input></td>
+                            <td><input type="password" name="pwd"></input></td>
+                            
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_1" id="check_profile_1">
+                            </td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_2" id="check_profile_2">
+                            </td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_3" id="check_profile_3">
+                            </td>
+                            <td style="text-align: center;">
+                                <input type="checkbox" name="check_profile_4" id="check_profile_4">
+                            </td>        
+                            <td><input type="button" name="ajout_utilisateur" value="modifier"></td>
+                            <td><input type="button" name="ajout_utilisateur" value="supprimer"></td>
                         </tr>
                     </table>
                     <br />
