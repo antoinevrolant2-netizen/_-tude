@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="soc.css">
     </head>
     <body width="100%">
-
+        
         <table width="100%">
             <tr>
                 <td width="100%">
@@ -20,10 +20,12 @@
                     <br />
                     <h2>Vos outils</h2>
                     <br />
-                    &nbsp;&nbsp;&nbsp;<a href="">acc&eacute;der &agrave; la comptabilit&eacute;</a> 
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="button" name="compta" value="Comptabilit&eacute;" onclick="window.open('./compta.html');" />
                     <br />
                     <br />
-                    &nbsp;&nbsp;&nbsp;<a href="">acc&eacute;der &agrave; votre CRM</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="button" name="crm" value="Votre CRM" onclick="window.open('./crm.html');" />
                     <br />
                     <h2>Utilisateurs</h2>
                     &nbsp;&nbsp;&nbsp;
@@ -142,6 +144,9 @@
                     <br />
                     <br />
                     &nbsp;&nbsp;&nbsp;
+                    <label style="color: red;">fonctionne par batch</label>
+                    <br />
+                    <br />
                     <div>
                         <input type="radio" id="identification_produit" name="ident_produit_commande" value="ident_produit">
                             <label for="identification_produit">&agrave; l' ajout du produit</label>
@@ -154,12 +159,16 @@
                     <br />
                     <h3 style="text-align: left;">Livraison / Facture</h3>
                     <br />
+                    <label style="color: red;">fonctionne par batch</label>
                     <div>
                     <!--<label style="color: red;">-->scinder la facture de la livraison&nbsp;<input type="checkbox" name="liv_fav"></label>
                     </div>
                     <br />
-                    <br />
                     <h2>Stocks</h2>
+                    <br />
+                    <label for="myfile"></label>
+                    <input type="file" id="myfile" name="myfile" />
+                    <br />
                     <br />
                     <br />
                     <table>
@@ -260,7 +269,10 @@
                             </tr>
                         </table>
                     </td>
-                    <td><!--<label style="color: red;">-->depuis l'ajout du produit ou &agrave; la cr&eacute;ation de la commande</label
+                    <td>depuis l'ajout du produit ou &agrave; la cr&eacute;ation de la commande</label>
+                        <br />
+                        <br />
+                        <label style="color: red;">fonctionne par batch</label>
                         <br />
                         <br />
                         <div>
@@ -329,24 +341,31 @@
             <br />Bas&eacute; sur de l'Intelligence Artificielle
             <br />
             <br />
+            <input type="range" min="1" max="100" value="50" id="pertinence" style="width: 33%;"/>
+            <label id="pertinence_value"></label>%
+            <br />
+            <br />
+            <label style="color: red;">fonctionne par batch</label>
+            <br />
+            <br />
                     <table>
                         <tr>
-                            <td>
+                            <td><!--
                                 <select name="entrepot_evt" id="entrepot_evt">
                                     <option value="entrepot_1">entrepot&nbsp;1</option>
                                     <option value="entrepot_n">entrepot&nbsp;n</option>
-                                </select>
+                                </select>-->
                             </td>
                             <td><input placeholder=" d&eacute;tail de l'&eacute;v&eacute;nement" name="detail_evt"></input></td>
                             <td><input type="button" name="ajout_entrepot_evt" value="ajouter"></td>
                         </tr>
                         
                         <tr>
-                            <td>
+                            <td><!--
                                 <select name="entrepot_evt-1" id="entrepot_evt-1">
                                     <option value="entrepot_1-1">entrepot&nbsp;1</option>
                                     <option value="entrepot_n-1">entrepot&nbsp;n</option>
-                                </select>
+                                </select>-->
                             </td>
                             <td><input placeholder=" d&eacute;tail de l'&eacute;v&eacute;nement" name="detail_evt-1"></input></td>
                             <td>
@@ -359,11 +378,12 @@
                             <td><input type="button" name="supprimer_entrepot_evt-1" value="supprimer"></td>
                         </tr>
                         <tr>
-                            <td>
+                            <td><!--
                                 <select name="entrepot_evt-1" id="entrepot_evt-1">
                                     <option value="entrepot_1-1">entrepot&nbsp;1</option>
                                     <option value="entrepot_n-1">entrepot&nbsp;n</option>
                                 </select>
+                                -->
                             </td>
                             <td><input placeholder=" d&eacute;tail de l'&eacute;v&eacute;nement" name="detail_evt-1"></input></td>
                             <td>
@@ -376,11 +396,11 @@
                             <td><input type="button" name="supprimer_entrepot_evt-1" value="supprimer"></td>
                         </tr>
                         <tr>
-                            <td>
+                            <td><!--
                                 <select name="entrepot_evt-1" id="entrepot_evt-1">
                                     <option value="entrepot_1-1">entrepot&nbsp;1</option>
                                     <option value="entrepot_n-1">entrepot&nbsp;n</option>
-                                </select>
+                                </select>-->
                             </td>
                             <td><input placeholder=" d&eacute;tail de l'&eacute;v&eacute;nement" name="detail_evt-1"></input></td>
                             <td>
@@ -399,4 +419,12 @@
                     <br />
                     <br />
     </body>
+    <script>
+        var slider = document.getElementById('pertinence');
+        var output = document.getElementById('pertinence_value');
+        output.innerHTML = slider.value;
+        slider.oninput = function() {
+        output.innerHTML = this.value;
+        }
+    </script>
 </html>
