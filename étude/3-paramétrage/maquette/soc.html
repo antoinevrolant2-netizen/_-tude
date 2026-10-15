@@ -120,6 +120,45 @@
                         </tr>
                     </table>
                     <br />
+                    <h2>Les Clients</h2>
+                    &nbsp;&nbsp;&nbsp;
+                    <br />
+                    <table style="width: 50%;text-align: center;"  border="1">
+                        <tr>
+                            
+                                        <td style="padding: 5px;width: 20%;text-align: center;">Pr&eacute;nom</td>
+                                        <td style="padding: 5px;width: 20%;text-align: center;">Nom</td>
+                                        <td style="padding: 5px;width: 20%;text-align: center;">NFC</td>
+                                        <td style="padding: 5px;width: 20%;text-align: center;">Voice</td>                   
+                        </tr>
+                        <tr>
+                                        <td><label>titi</label></td>
+                                        <td><label>tata</label></td>
+                                        
+                                        <td style="text-align: center;">
+                                            <input type="checkbox" name="check_profile_1" id="check_profile_1">
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <input type="checkbox" name="check_profile_2" id="check_profile_2">
+                                        </td>      
+                                        <td><input type="button" name="ajout_utilisateur" value="modifier"></td>
+                                    
+                        </tr>
+                        <tr>
+                                        <td><label>toto</label></td>
+                                        <td><label>tutu</label></td>
+                                        
+                                        <td style="text-align: center;">
+                                            <input type="checkbox" name="check_profile_1" id="check_profile_1">
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <input type="checkbox" name="check_profile_2" id="check_profile_2">
+                                        </td>      
+                                        <td><input type="button" name="ajout_utilisateur" value="modifier"></td>
+                                    
+                        </tr>
+                    </table>
+                    <br/>
                     <h2>Produits / Catalogues</h2>
                     <br />
                     &nbsp;&nbsp;&nbsp;
@@ -140,10 +179,6 @@
                     <!--<label style="color: red;">-->depuis l'ajout du produit ou &agrave; la cr&eacute;ation de la commande</label>
                     <br />
                     <br />
-                    &nbsp;&nbsp;&nbsp;
-                    <label style="color: red;">fonctionne par batch</label>
-                    <br />
-                    <br />
                     <div>
                         <input type="radio" id="identification_produit" name="ident_produit_commande" value="ident_produit">
                             <label for="identification_produit">&agrave; l' ajout du produit</label>
@@ -156,7 +191,6 @@
                     <br />
                     <h3 style="text-align: left;">Livraison / Facture</h3>
                     <br />
-                    <label style="color: red;">fonctionne par batch</label>
                     <div>
                     <!--<label style="color: red;">-->scinder la facture de la livraison&nbsp;<input type="checkbox" name="liv_fav"></label>
                     </div>
@@ -270,9 +304,6 @@
                     <td>depuis l'ajout du produit ou &agrave; la cr&eacute;ation de la commande</label>
                         <br />
                         <br />
-                        <label style="color: red;">fonctionne par batch</label>
-                        <br />
-                        <br />
                         <div>
                             <input type="radio" id="reservation_produit" name="reservation_stock" value="ajout du produit">
                                 <label for="reservation_produit">&agrave; l' ajout du produit</label>
@@ -354,9 +385,6 @@
             <br />
             <input type="range" min="1" max="100" value="50" id="pertinence" style="width: 33%;"/>
             <label id="pertinence_value"></label>%
-            <br />
-            <br />
-            <label style="color: red;">fonctionne par batch</label>
             <br />
             <br />
                     <table>
